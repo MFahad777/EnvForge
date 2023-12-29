@@ -12,6 +12,18 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFahad777/EnvForge.git"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "env-schema",
+    "validation"
+  ],
+  "homepage": "https://github.com/MFahad777/EnvForge#readme",
+  "author": "Muhammad Fahad",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
