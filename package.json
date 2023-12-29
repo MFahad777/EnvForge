@@ -1,0 +1,29 @@
+{
+  "name": "env-forge",
+  "version": "1.0.0",
+  "description": "A package that validates environment variable keys",
+  "devDependencies": {
+    "@types/core-js": "^2.5.8",
+    "@types/node": "^20.10.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "predev": "rimraf -rf dist/**",
+    "prebuild": "rimraf ./dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
